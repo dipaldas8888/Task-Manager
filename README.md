@@ -16,32 +16,33 @@ A simple **Task Manager** app built with:
 ---
 
 ## 🗂️ Project Structure
-task-manager/
-├─ backend/ # FastAPI backend
-│ ├─ app/
-│ │ ├─ main.py
-│ │ ├─ models.py
-│ │ ├─ storage.py
-│ │ ├─ crud.py
-│ │ └─ init.py
-│ └─ requirements.txt
-│
-├─ frontend/ # React + Vite + Tailwind frontend
-│ ├─ src/
-│ │ ├─ App.jsx
-│ │ ├─ api.js
-│ │ ├─ main.jsx
-│ │ ├─ index.css
-│ │ └─ components/
-│ │ ├─ AddTask.jsx
-│ │ └─ TaskList.jsx
-│ ├─ index.html
-│ ├─ package.json
-│ ├─ tailwind.config.cjs
-│ └─ postcss.config.cjs
-│
-└─ README.md # Project documentation
 
+```text
+task-manager/
+├─ backend/        # FastAPI backend
+│  ├─ app/
+│  │  ├─ __init__.py
+│  │  ├─ main.py
+│  │  ├─ models.py
+│  │  ├─ storage.py
+│  │  └─ crud.py
+│  └─ requirements.txt
+│
+├─ frontend/       # React + Vite + Tailwind frontend
+│  ├─ src/
+│  │  ├─ main.jsx
+│  │  ├─ App.jsx
+│  │  ├─ api.js
+│  │  ├─ index.css
+│  │  └─ components/
+│  │     ├─ AddTask.jsx
+│  │     └─ TaskList.jsx
+│  ├─ index.html
+│  ├─ package.json
+│  ├─ tailwind.config.cjs
+│  └─ postcss.config.cjs
+│
+└─ README.md       
 
 
 ## ⚙️ Setup Instructions
