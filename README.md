@@ -14,6 +14,8 @@ A simple **Task Manager** app built with:
 - REST APIs with FastAPI (auto-generated Swagger docs)
 
 ---
+Need to install python package manager  and python too
+
 
 ## 🗂️ Project Structure
 
@@ -53,8 +55,8 @@ cd backend
 
 # Create virtual environment
 python3 -m venv .venv
-source .venv/bin/activate   # Linux/Mac
-# or: .venv\Scripts\activate   # Windows PowerShell
+source .venv/bin/activate  
+
 
 # Install dependencies
 pip install -r requirements.txt
@@ -98,7 +100,7 @@ Future Improvements:
 
 Add persistent database (SQLite/Postgres)
 
-Add user authentication
+Add user authentication with JWT 
 
 Add task editing/deletion
 
