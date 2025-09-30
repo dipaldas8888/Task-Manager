@@ -41,8 +41,8 @@ task-manager/
 │  │     └─ TaskList.jsx
 │  ├─ index.html
 │  ├─ package.json
-│  ├─ tailwind.config.cjs
-│  └─ postcss.config.cjs
+│  ├─ package-lock.json
+│  └─ vite.config.js
 │
 └─ README.md       
 
